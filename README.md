@@ -41,13 +41,9 @@ Ensure you have the following installed before you start:
     - Navigate to the Firebase Console, create a new project, and enable the Google Sign-In method.
     - Download `google-services.json` or `GoogleService-Info.plist` and place it in the correct directory.
 
-4. **TMDB API Configuration**
+4. **Dotenv File COnfiguration**
 
-    - Secure your TMDB API key and add it to a `.env` file:
-
-    ```env
-    TMDB_API_KEY=your_tmdb_api_key_here
-    ```
+    - Copy the contents of .env.sample to .env and fill the required details
 
 5. **Launch the App**
 
